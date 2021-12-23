@@ -1,0 +1,22 @@
+.checkout {
+  margin-top: 55px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(241, 237, 231);
+  justify-content: space-between;
+  padding: 10px;
+  height: max-content;
+}
+
+.checkout__left {
+  display: flex;
+  max-width: 300px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.checkout__ad {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}

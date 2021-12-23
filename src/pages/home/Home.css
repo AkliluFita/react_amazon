@@ -1,0 +1,43 @@
+.home {
+  display: block;
+  margin-top: 50px;
+}
+
+.home_showcase {
+  height: 400px;
+  background-image: url(https://woocommerce.com/wp-content/uploads/2020/06/woo-social-card.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  mask-image: linear-gradient(rgb(134, 108, 108), transparent);
+  /* max-width: 100%; */
+  width: auto;
+}
+
+.home_product {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  min-width: 400px;
+}
+
+/* .home__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home__image {
+  max-height: 300px;
+  z-index: -1; /*to make the image behind every thing thing*/
+/* mask-image: linear-gradient(rgb(134, 108, 108), transparent);
+} */
+
+/* .home_product {
+  display: grid;
+  grid-template-columns: auto;
+  width: 100%;
+} */

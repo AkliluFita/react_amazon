@@ -1,0 +1,35 @@
+.payment {
+  background-color: blanchedalmond;
+  margin-top: 20px;
+}
+
+.payment__container > h1 {
+  text-align: center;
+  color: black;
+  background-color: rgb(207, 189, 164);
+  padding-bottom: 5px;
+}
+
+.payment__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.PaymentMethod {
+  margin-top: 20px;
+}
+
+.payment_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.payment__title {
+  flex: 0.2;
+}
+.payment__details {
+  flex: 0.8;
+}
